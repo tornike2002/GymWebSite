@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");
+.nutrition-banner {
+  background: url("../../assets/section-picture-2.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  max-width: 100%;
+  margin: 1rem 1rem;
+  height: 50vh;
+}
+.nutrition-banner_texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Six Caps", sans-serif;
+  padding-top: 4rem;
+  gap: 10px;
+}
+.nutrition-banner_texts h1 {
+  color: #434451;
+  font-size: 70px;
+  line-height: 1.2;
+  letter-spacing: 8px;
+}
+.nutrition-banner_texts h2:nth-child(2) {
+  font-size: 47px;
+  line-height: 1.1;
+  letter-spacing: 8px;
+}
+.nutrition-banner_texts h2:nth-child(3) {
+    color: #f29216;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 912px) {
+    .nutrition-banner{
+        background-position: center middle; 
+        overflow: hidden;
+        width: 100%;
+        margin: 1rem;
+    }
+    .nutrition-banner_texts{
+        text-align: center;
+    }
+}

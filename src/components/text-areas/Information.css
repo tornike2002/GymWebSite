@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+.information-main-background {
+  justify-content: space-evenly;
+  background: url("../../assets/information-middle-girl.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 400px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.info-wraper {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.info-left_side {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-left_side p {
+  color: #5a5c6d;
+}
+.info-left_side h2 {
+  color: #f29216;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+.info-left_side h1 {
+  color: #ffffff;
+}
+
+.info-right_side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 25%;
+}
+.info-right_side p {
+  color: #5a5c6d;
+}
+.info-right_side h2 {
+  color: #f29216;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+.info-right_side h1 {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .info-right_side {
+  width: 100%;
+  padding: 1rem;
+}
+  .info-left_side {
+  width: 100%;
+  padding: 1rem;
+}
+}

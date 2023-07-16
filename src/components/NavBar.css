@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+.nav-bar {
+    padding-top: 4rem;
+}
+.navbar-items {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.navbar-items li a {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: all .3s;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navbar-items li a:hover {
+    color: #f29216;
+   
+    
+}
+nav a.active{
+    color: #f29216;
+    
+}

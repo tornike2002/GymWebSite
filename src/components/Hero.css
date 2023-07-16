@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+.hero-background{
+    background: url("../assets/background-image.jpg");
+    max-width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-titles{
+    color: #fff;
+    font-family: 'Six Caps', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.hero-titles h1 {
+    font-size: 80px;
+    letter-spacing: 25px;
+}
+
+.hero-titles h4 {
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 12px;
+    font-style: normal;
+}
+
+/* media  */
+
+@media screen and (max-width: 670px) {
+    .hero-titles h1 {
+        text-align: center;
+    }
+     
+}
+@media screen and (max-width: 350px) {
+    .hero-titles h1 {
+        font-size: 30px;
+    }
+     
+}

@@ -1,0 +1,122 @@
+.contact-map_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.address-form_container p {
+  color: #f29216;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  font-family: arial, helvetica, sans-serif;
+  letter-spacing: 0px;
+}
+.address-form_container h3 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: arial, helvetica, sans-serif;
+  color: #5a5c6d;
+}
+.address-form_container h1 {
+  color: #f29216;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  font-family: arial, helvetica, sans-serif;
+  letter-spacing: 0px;
+}
+
+.contact-form_container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact-form {
+  width: 30%;
+  max-width: 100%;
+}
+.from-field_style {
+  background-color: black;
+  border: 1px solid #f29216;
+  min-height: 40px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.from-field_style::placeholder {
+  padding-left: 15px;
+}
+.textarea {
+  min-height: 80px;
+  width: 100%;
+  border: 1px solid #f29216;
+  max-width: 100%;
+  background-color: black;
+}
+.textarea::placeholder {
+  padding-left: 15px;
+}
+.contact-btn {
+  background-color: #f29216;
+  padding: 10px 41px;
+  font-size: 19px;
+  width: fit-content;
+  letter-spacing: 4px;
+}
+.contact-btn:hover {
+  background-color: rgb(44, 41, 41);
+  border: 0px solid #000;
+}
+Form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.map {
+  width: 1150px;
+  max-width: 100%;
+  min-height: 450px;
+}
+.contact-map_container h1 {
+  text-align: center;
+  color: #f29216;
+  margin-bottom: 40px;
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: 5px;
+}
+.address-form_container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f29216;
+
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: 5px;
+}
+.contact-title {
+    margin-bottom: 20px;
+  text-align: center;
+  color: #f29216;
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 475px) {
+  .contact-form {
+    width: 100%;
+  }
+  .address-form_container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

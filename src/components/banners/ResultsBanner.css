@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");
+
+.result-banner {
+  background: url("../../assets/section-picture-1.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  max-width: 100%;
+  margin: 1rem 1rem;
+  height: 50vh;
+}
+.result-banner_texts {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.result-banner_texts h1
+{
+  font-family: "Six Caps", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.result-banner_texts h1 {
+  color: #ffffff;
+  font-size: 70px;
+  line-height: 1.2;
+  letter-spacing: 8px;
+}
+.result-banner_texts h2:nth-child(2) {
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 14px;
+}
+.result-banner_texts h2:nth-child(3) {
+  color: #f29216;
+  font-size: 40px;
+  padding-top: 40px;
+  line-height: 1.1;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.result-banner_texts h3 {
+  color: #f29216;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+/* @media screen and (max-width: 1028) {
+   .result-banner_texts h2:nth-child(3){
+    
+   }
+} */
+
+@media screen and (max-width: 912px) {
+  .result-banner {
+    background-position: center middle;
+    overflow: hidden;
+    width: 100%;
+    margin: 1rem;
+  }
+  .result-banner_texts {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 390px) {
+ .result-banner_texts h1 {
+    font-size: 40px;
+ }
+ .result-banner_texts h2:nth-child(2){
+    font-size: 30px;
+ }
+ .result-banner_texts h2:nth-child(3){
+    font-size: 25px;
+ }
+}
+
+
